@@ -7,5 +7,7 @@
         public DataContext() : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<MachinApp.Common.Models.Machine> Machines { get; set; }
     }
 }
